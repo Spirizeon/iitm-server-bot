@@ -11,8 +11,9 @@ To use this bot, you need to do the following:
 2. Modify `config.py` with your settings.
 3. Add the required secrets to `.env.example`
 4. Rename `.env.example` to `.env`
-5. Install the required Python packages by running `pip install -r requirements.txt.`
-6. Run the `main.py` file to start the bot.
+5. Installation
+  1) With Python: Install required Python packages by running `pip install -r requirements.txt`.Run the `main.py` file to start the bot. 
+  2) With Docker: Build and run the container with `docker build . -t iitm-server-bot && docker run -it iitm-server-bot`
 
 
 ## Project Structure
@@ -94,18 +95,6 @@ Contains commands for development purposes. All these commands require the `is_o
 
 ### `cogs/verification.py`
 Contains code for verification of new joiners.
-
-
-## Running The Bot
-
-To run the bot, execute the following command:
-
-```
-python main.py
-```
-
-This command will start the bot and be ready to receive messages and interactions from Discord users.
-
 
 ## Contact
 
