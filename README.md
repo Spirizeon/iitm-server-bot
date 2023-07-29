@@ -9,11 +9,11 @@ To use this bot, you need to do the following:
 
 1. Clone this repository to your local machine.
 2. Modify `config.py` with your settings.
-3. Add the required secrets to `.env.example`
-4. Rename `.env.example` to `.env`
-5. Installation
-   - With Python: Install required Python packages by running `pip install -r requirements.txt`.Run the `main.py` file to start the bot. 
-   - With Docker: Build and run the container with `docker build . -t iitm-server-bot && docker run -it iitm-server-bot`
+3. Add the required secrets to `.env.example`.
+4. Rename `.env.example` file to `.env`.
+5. Installation pathways:
+   - With Python: Install the required Python packages by running `pip install -r requirements.txt`. Run the `main.py` file to start the bot. 
+   - With Docker: Build and run the container using `docker build . -t iitm-server-bot && docker run -it iitm-server-bot`.
 
 
 ## Project Structure
@@ -67,16 +67,16 @@ Contains the MIT License agreement for this project.
 This file which you are reading right now.
 
 ### `config.py`
-All _Non-Sensitive_ global config variables are set here for the bot.
+All _Non-Sensitive_ global configuration variables are set here for the bot.
 
 ### `.env`
 All _Sensitive_ variables such as discord tokens and other secrets.
-````
+```
 DISCORD_BOT_TOKEN="PASTE BOT TOKEN HERE"
 SIB_API_KEY="PASTE API KEY HERE"
 SIB_SENDER_EMAIL="PLACE EMAIL HERE"
 FERNET="PLACE FERNET KEY HERE"
-````
+```
 
 ### `utils/email_template.txt`
 Contains the template for the email that the bot sends.
