@@ -78,6 +78,9 @@ SIB_SENDER_EMAIL="PLACE EMAIL HERE"
 FERNET="PLACE FERNET KEY HERE"
 ```
 
+### `Dockerfile`
+Contains the configuration for the building the bot's custom docker image.
+
 ### `utils/email_template.txt`
 Contains the template for the email that the bot sends.
 
