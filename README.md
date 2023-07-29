@@ -12,8 +12,8 @@ To use this bot, you need to do the following:
 3. Add the required secrets to `.env.example`
 4. Rename `.env.example` to `.env`
 5. Installation
-  1) With Python: Install required Python packages by running `pip install -r requirements.txt`.Run the `main.py` file to start the bot. 
-  2) With Docker: Build and run the container with `docker build . -t iitm-server-bot && docker run -it iitm-server-bot`
+   - With Python: Install required Python packages by running `pip install -r requirements.txt`.Run the `main.py` file to start the bot. 
+   - With Docker: Build and run the container with `docker build . -t iitm-server-bot && docker run -it iitm-server-bot`
 
 
 ## Project Structure
