@@ -41,6 +41,7 @@ The project is structured as follows:
 ├── config.py
 ├── main.py
 ├── .env
+├── Dockerfile
 └── requirements.txt
 ```
 
